@@ -1,21 +1,25 @@
-$background-color-primary: rgba(251, 229, 227, 0.7);
-$background-color-secondary: rgba(62, 193, 16, 0.20);
-
+$background-color-primary:  rgba(249, 253, 255, 0.7);
+$background-color-secondary: #E5E5E5;
+$background-color-tertiary: rgba(0, 185, 182, 0.1);
+$background-color-quaternary: #00B9B6;
+$background-color-fifth: #FFFFFF;
 // text
-$color-text-primary:  #000;
-$color-text-secondary:  #333333;
-$color-text-tertiary: #FFFFFF;
+$color-text-primary:  #0E0E0F;
+$color-text-secondary:  #00B9B6;
+$color-text-tertiary: #333333;
 // $color-text-quaternary: #F2582D;
 // $color-text-active:  #FFFFFF;
 
 //hamburger
-$background-color-hamburger-primary: #fbe5e3; 
-$background-color-hamburger-secondary: #a3c78f;
-$color-text-active-hamburger: #dc143c; 
+// $background-color-hamburger-primary: #fbe5e3; 
+// $background-color-hamburger-secondary: #a3c78f;
+// $color-text-active-hamburger: #dc143c; 
 
 // button
-// $background-color-button: #F25822;
-// $color-text-button: #FFFFFF;
+$background-color-button:  linear-gradient(225deg, #00B9B6 0%, #00CDAC 100%);
+$color-text-button:  #FFFFFF;
+$background-color-button-active: #F9FDFF;
+$color-text-button-active:  #00B9B6;
 
 // border
-// $border-color: #CCCCCC;
+$border: 1px solid #00B9B6;;

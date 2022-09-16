@@ -1,426 +1,525 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Юлія Корой, психолог, ароматерапевт, Одесса. Отметки &quot;Нравится&quot;: 155. -Індивідуальні психологічні консультації;
-        -Консультації з ароматерапії;
-        -Натуральні олії
-        -МК з ароматерапії">
-        <meta http-equiv='cache-control' content='no-cache'> 
-    <meta http-equiv='expires' content='0'> 
-    <meta http-equiv='pragma' content='no-cache'>
-    <title>Yuliia Koroi</title>
-    <link rel="stylesheet" href="css/style.min.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speak</title>
+  </head>
+  <body>
     <header class="header">
-        <div class="container header-container">
-            <div class="header-content">
-                <a class="header-content-author" href="/">
-                    <img class="header-content-logo-img" src="img/3143057.png">
-                    Психолог
-                </a>
-                <button class="hamburger hamburger--collapse">
-                    <span class="hamburger-box">
-                      <span class="hamburger-inner"></span>
-                    </span>
-                </button>
-            </div>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about-me">
-                            Про мене
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">
-                            Консультації
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#consultation">
-                            Ароматерапія
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#trainings">
-                            Тренінги
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contacts">
-                            Контакти
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="nav-mobile js-nav-mobile">
-                <header class="nav-mobile-header">
-                    <a class="nav-mobile-header-link" href="/">
-                        <img class="nav-mobile-img" src="img/3143057.png">
-                        Психолог-ароматерапевт
-                    </a>
-                    <button class="hamburger hamburger--collapse">
-                        <span class="hamburger-box">
-                          <span class="hamburger-inner"></span>
-                        </span>
-                    </button>
-                </header>
-                <ul class="nav-mobile-list">
-                    <li class="nav-mobile-item">
-                        <a class="nav-mobile-link" href="#about-me">
-                            Про мене
-                        </a>
-                    </li>
-                    <li class="nav-mobile-item">
-                        <a class="nav-mobile-link" href="#services">
-                            Психологічні консультації
-                        </a>
-                    </li>
-                    <li class="nav-mobile-item">
-                        <a class="nav-mobile-link" href="#consultation">
-                            Консультації з ароматерапії
-                        </a>
-                    </li>
-                    <li class="nav-mobile-item">
-                        <a class="nav-mobile-link" href="#trainings">
-                            Психологічні тренінги
-                        </a>
-                    </li>
-                    <li class="nav-mobile-item">
-                        <a class="nav-mobile-link" href="#contacts">
-                            Контакти
-                        </a>
-                    </li>
-                </ul>
-                <ul class="social-list social-list-mobile">
-                    <li class="social-item">
-                        <a class="social-link social-link-instagram" href="https://www.instagram.com/yuliia.koroi/">  
-                        </a>
-                    </li>
-                    <li class="social-item">
-                        <a class="social-link social-link-facebook" href="https://www.facebook.com/yuliia.koroi/">
-                        </a>
-                    </li>
-                    <li class="social-item">
-                        <a class="social-link social-link-telegram"  href="https://telegram.me/Yuliia_koroi">
-                        </a> 
-                    </li>
-                    <li class="social-item">
-                        <a class="social-link social-link-viber" href="viber://chat?number=+380930692777">  
-                        </a>
-                    </li>
-                    <li class="social-item">
-                        <a class="social-link social-link-watsapp" href="whatsapp://send?phone=+380930692777">  
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+      <div class="container header__container">
+        <a class="header__logo" href="#">
+          <img class="header__img" src="img/logo.svg" alt="logo">
+        </a>
+				<nav class="nav">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a class="nav__link" href="#">About us</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="#">Blog</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="#">Contact</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="auth">
+					<select class="auth__select">
+						<option class="auth__select-option" value="en">EN</option>
+						<option class="auth__select-option" value="pl">PL</option>
+						<option class="auth__select-option" value="de">DE</option>
+					</select>
+					<button class=" button auth__button">Войти</button>
+				</div>
+      </div>
     </header>
-    <main class="main">
-        <section class="psychologist">
-            <div class="container psychologist-container">
-                <figure class="psychologist-figure">
-                    <picture class="psychologist-picture">
-                        <source srcset="img/psyhologist-yuliia.avif"
-                            type="image/avif">
-                        <source srcset="img/psyhologist-yuliia.webp"
-                            type="image/webp">
-                            <img class="psychologist-img" src="img/psyhologist-yuliia.JPG"></img>
-                    </picture>
-                </figure>
-                <h2 class="psychologist-title psychologist-title-mobile">Юлія Корой</h2>
-                <div class="psychologist-content">
-                   <h2 class="psychologist-title psychologist-title-desktop">Юлія Корой</h2>
-                   <div class="psychologist-paragraphs">
-                        <p class="psychologist-text">
-                            Психолог-ароматерапевт. Консультант з етичного догляду
-                            за душею та тілом.
-                        </p>
-                        <p class="psychologist-text">
-                            Я вірю, що вміння жити в гармонії з
-                            собою та світом - один із ключових обов'язків кожного з нас.
-                            І гармонія ця тісно пов'язана з щоденною турботою про себе,
-                            своє здоров'я та психіку.
-                            І я з радістю допоможу тобі на
-                            твоєму життєвому шляху.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="about-me" id="about-me">
-            <div class="container about-me-container">
-                <h2 class="about-me-title about-me-title-mobile">
-                    Про мене
-                </h2>
-                <div class="about-me-content">
-                    <h1 class="about-me-title about-me-title-desktop">
-                        Про мене
-                    </h1>
-                    <div class="about-me-paragraphs">
-                        <p class="about-me-text">
-                            Здобула степінь магістра психології в ДЗ «ПНПУ імені К.
-                            Д. Ушинського».
-                        </p>
-                        <p class="about-me-text">
-                            Регулярно підвищую кваліфікацію на
-                            тренінгах та семінарах.
-                        </p>
-                        <p class="about-me-text">
-                            Останні 10 років я присвятила
-                            психології.
-                        </p>
-                        <p class="about-me-text">
-                            Більше трьох років вивчаю ефірні олії, їх
-                            вплив на наше тіло, фізичне та психічне здоров'я. 
-                        </p> 
-                        <p class="about-me-text">
-                            Психолог в міській лікарні.
-                            </p>
-                        <p class="about-me-text">
-                            Автор і тренер психологічних
-                            тренінгів у міжнародній благодійній організації INTERSOS. 
-                        </p>
-                        <p class="about-me-text">
-                            Психолог в ГО «Фонд підтримки громадян Одеси «Ти Україна».
-                        </p>
-                    </div>
-                </div>
-                <figure class="about-me-figure">
-                    <picture class="about-me-picture">
-                        <source srcset="img/about-me-yuliia.avif"
-                            type="image/avif">
-                        <source srcset="img/about-me-yuliia.webp"
-                            type="image/webp">
-                        <img class="about-me-img" src="img/about-me-yuliia.jpg">
-                    </picture>  
-                </figure>  
-            </div>
-        </section>
-        <section class="services" id="services">
-            <div class="container services-container">
-                <figure class="services-figure">
-                    <picture class="services-picture">
-                        <source srcset="img/psyhologis-consultation.avif"
-                            type="image/avif">
-                        <source srcset="img/psyhologis-consultation.webp"
-                            type="image/webp">
-                            <img class="services-img" src="img/psyhologis-consultation.jpg">
-                    </picture>   
-                </figure>
-                <h2 class="services-title services-title-mobile">
-                    Індивідуальні психологічні консультації
-                </h2>
-                <div class="services-content">
-                    <h2 class="services-title services-title-desktop">
-                        Індивідуальні психологічні консультації
-                    </h2>
-                        <h3 class="services-subtitle">
-                            Я допоможу:
-                        </h3>
-                        <ul class="services-list">
-                            <li class="services-item">
-                                Справитися з невпевненістю та заниженою самооцінкою
-                            </li>
-                            <li class="services-item">
-                                Подолати труднощі в сфері спілкування
-                            </li>
-                            <li class="services-item">
-                                Разом з тобою знайдемо шлях до саморозуміння
-                            </li>
-                            <li class="services-item">
-                                Складнощі в адаптації
-                            </li>
-                            <li class="services-item">
-                                Справитися зі стресом
-                            </li>
-                            <li class="services-item">
-                                Підтримка в умовах війни
-                            </li>
-                        </ul>
-                        <p class="services-text">
-                            Якщо відчуваєш внутрішню готовність до змін та розвитку
-                            – записуйся до мене на індивідуальну психологічну консультацію.
-                        </p>
-                    </div>
-                </div>
-        </section>
-        <section class="consultation" id="consultation">
-            <div class="container consultation-container">
-                <h2 class="consultation-title consultation-title-mobile">
-                    Консультації з ароматерапії
-                </h2>
-                <div class="consultation-content">
-                    <h2 class="consultation-title consultation-title-desktop">
-                        Консультації з ароматерапії
-                    </h2>
-                    <h3 class="consultation-subtitle">
-                        Я підкажу:
-                    </h3>
-                    <ul class="consultation-list">
-                        <li class="consultation-item">
-                            Як замінити домашню аптечку на ефективні та безпечні натуральні олії
-                        </li>
-                        <li class="consultation-item">
-                            Підберу олії саме для твоїх потреб
-                        </li>
-                        <li class="consultation-item">
-                            Як швидко розслабитися
-                        </li>
-                        <li class="consultation-item">
-                            Як покращити імунітет
-                        </li>
-                        <li class="consultation-item">
-                            Як покращити розумову активність
-                        </li>
-                        <li class="consultation-item">
-                            Як підвищити концентрацію уваги
-                        </li>
-                        <li class="consultation-item">
-                            Як посилити впевненість в собі
-                        </li>
-                        <li class="consultation-item">
-                            Як зняти стрес, тривогу, депресивні стани
-                        </li>
-                        <li class="consultation-item">
-                            Як підвищити лібідо та подовжити тривалість статевого акту
-                        </li>
-                        <li class="consultation-item">
-                            Як адаптуватися до змін та нових умов
-                        </li>
-                    </ul>
-                    <p class="consultation-text">
-                        Якщо обираєш шлях здорового та усвідомленого життя
-                        – дзвони або пиши і ми разом оберемо якісні ефірні олії, що допоможуть
-                        зробити цей шлях ароматним та корисним.
-                    </p>  
-                </div>
-                <figure class="consultation-figure">
-                    <picture class="consultation-picture">
-                        <source srcset="img/aroma-therapia.avif"
-                            type="image/avif">
-                        <source srcset="img/aroma-therapia.webp"
-                            type="image/webp">
-                            <img class="consultation-img" src="img/aroma-therapia.jpg">
-                    </picture>  
-                </figure> 
-            </div>
-        </section>
-        <section class="trainings" id="trainings">
-            <div class="container trainings-container">
-                <figure class="trainings-figure">
-                    <picture class="trainings-picture">
-                        <source srcset="img/training.avif"
-                            type="image/avif">
-                        <source srcset="img/training.webp"
-                            type="image/webp">
-                            <img class="trainings-img" src="img/training.jpg">
-                    </picture> 
-                </figure>
-                <h2 class="trainings-title trainings-title-mobile">
-                    Безкоштовні психологічні тренінги для одеситів та гостей міста
-                </h2>
-                <div class="trainings-content">
-                    <h2 class="trainings-title trainings-title-desktop">
-                        Безкоштовні психологічні тренінги для одеситів та гостей міста
-                    </h2>
-                    <h3 class="trainings-subtitle">
-                        Обирай тематику тренінгу:
-                    </h3>
-                    <ul class="trainings-list">
-                        <li class="trainings-item">
-                            Інструменти психологічної самопідтримки в стресових ситуаціях
-                        </li>
-                        <li class="trainings-item">
-                            Емоційна абетка
-                        </li>
-                        <li class="trainings-item">
-                            Вагітність під час війни
-                        </li>
-                        <li class="trainings-item">
-                            Домашня дитяча аптечка психоемоційної підтримки
-                        </li>
-                    </ul>
-                    <p class="trainings-text">
-                        Якщо ти в пошуках інструментів для щоденної підтримки
-                        свого психічного здоров’я та хочеш провести роботу в
-                        душевній групі – записуйся на тренінги.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="intro">
-            <div class="container intro-container">
-                <div class="intro-content">
-                    <h2 class="intro-title">
-                        Психологічна підтримка - шлях до життя в гармонії
-                        та задоволенні. 
-                    </h2>
-                    <h3 class="intro-subtitle">
-                        Звертайся за вказаними контактами і ми разом підберемо
-                        найкращий час та оптимальну ціну.
-                    </h3>
-                </div>
-                <figure class="intro-figure">
-                    <img class="intro-img" src="img/intro-meditation-img.png">
-                </figure>
-            </div>
-        </section>
-    </main>
-    <footer class="footer" id="contacts">
-        <div class="container footer-container">
-            <div class="footer-content">
-                <div class="footer-contacts">
-                    <h3 class="footer-title">Контакти</h3>
-                    <ul class="footer-list">
-                        <li class="footer-item">
-                            Консультації в Одесі або онлайн
-                        </li>
-                        <li class="footer-item">
-                            <a class="footer-link" href="tel:+380930692777">
-                                Тел. +38 (093) 069 27 77 
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <ul class="social-list">
-                    <li class="social-item">
-                        <a class="social-link social-link-instagram" href="https://www.instagram.com/yuliia.koroi/">  
-                        </a>
-                    </li>
-                    <li class="social-item">
-                        <a class="social-link social-link-facebook" href="https://www.facebook.com/yuliia.koroi/">
-                        </a>
-                    </li>
-                    <li class="social-item">
-                        <a class="social-link social-link-telegram"  href="https://telegram.me/Yuliia_koroi">
-                        </a> 
-                    </li>
-                    <li class="social-item">
-                        <a class="social-link social-link-viber" href="viber://add?number=+380930692777">  
-                        </a>
-                    </li>
-                    <li class="social-item">
-                        <a class="social-link social-link-watsapp" href="whatsapp://send?phone=+380930692777">  
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer-copyrights">
-                <p class="footer-copyrights-text">
-                    <time class="footer-copyrights-time" datetime="2022">2022 р.</time>
-                    Olga Kolesnikova
-                </p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="./script/jquery-3.6.0.min.js"></script>
-    <script src="./script/script.js"></script>
-</body>
+		<main class="main">
+			<section class="session">
+				<div class=" container session__container">
+					<div class="session-content">
+						<h2 class="session__subtitle">
+							+300 прошедших отбор психологов
+						</h2>
+						<h1 class="session__title">
+							Сессии с психологом Онлайн
+						</h1>
+						<button class="button session__button">Начать беседу</button>
+					</div>
+					<figure class="session_figure">
+						<img class="session__img" src="img/psyhologist-session-img.svg" alt="session-psychologist">
+					</figure>
+				</div>
+			</section>
+			<section class="application">
+				<div class="container application__container">
+					<figure class="application__figure">
+						<img class="application__img" src="img/application.svg" alt="application">
+					</figure>
+					<div class="application__intro">
+						<h2 class="application__title">
+							Скачайте бесплатно приложение SPEAK
+						</h2>
+						<div class="application__content">
+							<figure class="application__content-figure">
+								<img class="application__content-img" src="img/logo-application.svg" alt="logo-application">
+							</figure>
+							<h2 class="application__content-title">Speak</h2>
+							<h3 class="application__content-subtitle">
+								онлайн сессии с психологом
+								доступно для iOS и Android
+							</h3>
+						</div>
+						<div class="application__phone">
+							<figure class="application__phone-figure">
+								<img class="application__phone-img" src="img/application-appstore.svg" alt="application__appstore">
+							</figure>
+							<figure class="application__phone-figure">
+								<img class="application__phone-img" src="img/application-googleplay.svg" alt="application-googleplay">
+							</figure>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="psychologists">
+				<div class="container psychologists__container">
+					<h2 class="psychologists__title">
+						<ul class="psychologists__list">
+							<li class="psychologists__item">
+								<a class="psychologists__link" href="#">Чувства</a>
+							</li>
+							<li class="psychologists__item">
+								<a class="psychologists__link" href="#">Одиночество</a>
+							</li>
+							<li class="psychologists__item">
+								<a class="psychologists__link" href="#">Вредные привычки</a>
+							</li>
+							<li class="psychologists__item">
+								<a class="psychologists__link" href="#">Отношения</a>
+							</li>
+							<li class="psychologists__item">
+								<a class="psychologists__link" href="#">Работа</a>
+							</li>
+							<li class="psychologists__item">
+								<a class="psychologists__link" href="#">Смыслы</a>
+							</li>
+							<li class="psychologists__item">
+								<a class="psychologists__link" href="#">Одиночество</a>
+							</li>
+							<li class="psychologists__item">
+								<a class="psychologists__link" href="#">Одиночество</a>
+							</li>
+							<li class="psychologists__item">
+								<a class="psychologists__link" href="#">Отношения с близкими</a>
+							</li>
+							<li class="psychologists__item">
+								<a class="psychologists__link" href="#">+ 300 психологов</a>
+							</li>
+						</ul>
+					</h2>
+					<div class="psychologists__card">
+						<article class="psychologists__arcticle">
+							<header class="psychologists__header">
+								<figure class="psychologists__figure">
+									<img class="psychologists__img" src="img/ilia-blagov.jpg" alt="photo-man">
+								</figure>
+							</header>
+								<div class="psychologists__body">
+									<h4 class="psychologists__title">
+										Илья Благов
+									</h4>
+								</div>
+								<footer class="psychologists__footer">
+									<figure class="psychologists__figure">
+										<img class="psychologists__img" src="img/stars.svg" alt="stars">
+									</figure>
+								</footer>
+						</article>
+						<article class="psychologists__arcticle">
+							<header class="psychologists__header">
+								<figure class="psychologists__figure">
+									<img class="psychologists__img" src="img/ivanna-esenina.jpg" alt="photo-man">
+								</figure>
+							</header>
+								<div class="psychologists__body">
+									<h4 class="psychologists__title">
+										Иванна Есина
+									</h4>
+								</div>
+								<footer class="psychologists__footer">
+									<figure class="psychologists__figure">
+										<img class="psychologists__img" src="img/stars.svg" alt="stars">
+									</figure>
+								</footer>
+						</article>
+						<article class="psychologists__arcticle">
+							<header class="psychologists__header">
+								<figure class="psychologists__figure">
+									<img class="psychologists__img" src="img/artur-ostrovski.jpg" alt="photo-man">
+								</figure>
+							</header>
+								<div class="psychologists__body">
+									<h4 class="psychologists__title">
+										Артур Островский
+									</h4>
+								</div>
+								<footer class="psychologists__footer">
+									<figure class="psychologists__figure">
+										<img class="psychologists__img" src="img/stars.svg" alt="stars">
+									</figure>
+								</footer>
+						</article>
+						<article class="psychologists__arcticle">
+							<header class="psychologists__header">
+								<figure class="psychologists__figure">
+									<img class="psychologists__img" src="img/yulia-zagranicznaja.jpg" alt="photo-man">
+								</figure>
+							</header>
+								<div class="psychologists__body">
+									<h4 class="psychologists__title">
+										Юля Заграничная
+									</h4>
+								</div>
+								<footer class="psychologists__footer">
+									<figure class="psychologists__figure">
+										<img class="psychologists__img" src="img/stars.svg" alt="stars">
+									</figure>
+								</footer>
+						</article>
+						<article class="psychologists__arcticle">
+							<header class="psychologists__header">
+								<figure class="psychologists__figure">
+									<img class="psychologists__img" src="img/andrej-jan.jpg" alt="photo-man">
+								</figure>
+							</header>
+								<div class="psychologists__body">
+									<h4 class="psychologists__title">
+										Андрей Ян
+									</h4>
+								</div>
+								<footer class="psychologists__footer">
+									<figure class="psychologists__figure">
+										<img class="psychologists__img" src="img/stars.svg" alt="stars">
+									</figure>
+								</footer>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section class="help">
+				<div class="container help__container">
+					<h2 class="help__title">
+						Поможем вам
+					</h2>
+					<ul class="help__list">
+						<li class="help__item">
+							Разрешить причины сложных отношений с партнером
+						</li>
+						<li class="help__item">
+							Снять или снизить остроту переживаний
+						</li>
+						<li class="help__item">
+							Справиться с выгоранием на работе и найти мотивацию
+						</li>
+						<li class="help__item">
+							Понять себя в отношениях с близкими людьми
+						</li>
+						<li class="help__item">
+							Найти себя и понимать свои желания
+						</li>
+						<li class="help__item">
+							Исследовать и управлять изменениями в своей жизни
+						</li>
+					</ul>
+					<figure class="help__figure">
+						<img class="help__img" src="img/help-img.svg" alt="help">
+					</figure>
+				</div>
+			</section>
+			<section class="online-session">
+				<div class=" container online-session__container">
+					<h2 class="online-session__title">
+						Преимущества онлайн сессий с психологом
+					</h2>
+					<h3 class="online-session__subtitle">
+						Занимайтесь где и как удобно
+					</h3>
+					<p class="online-session__text">
+						Дома или в поездке и в любом часовом поясе
+					</p>
+					<h3 class="online-session__subtitle">
+						Меньше забот- больше мотивации
+					</h3>
+					<p class="online-session__text">
+						Не тратьте время на дорогу и управляйте занятиями в два клика
+					</p>
+					<h3 class="online-session__subtitle">
+						Доверяйте себе
+					</h3>
+					<p class="online-session__text">
+						Выбирайте среди проверенных психологов, которые специаллизируются
+						на ваших запросах
+					</p>
+				</div>
+			</section>
+			<section class="specialist">
+				<div class="container specialist__container">
+					<h2 class="specialist__title">
+						Как мы отбираем специалистов?
+					</h2>
+					<h3 class="specialist__subtitle">Отбор проходят меньше 10% специаллистов</h3>
+					<ul class="specialist__list">
+						<li class="specialist__item">
+							<h3 class="specialist__item-title">Документы об образовании</h3>
+							<p class="specialist__text">
+								Обязательно иметь высшее психологическое образование
+								и сертификаты для ведения психотерапии
+							</p>
+						</li>
+						<li class="specialist__item">
+							<h3 class="specialist__item-title">
+								Опыт частной практики и личной терапии
+							</h3>
+							<p class="specialist__text">
+								Нужно не менее 3-х лет частной практики, личная терапия 
+								и регулярные супервизии
+							</p>
+						</li>
+						<li class="specialist__item">
+							<h3 class="specialist__intro-title">
+								Собеседование с нашим экспертом-ментором
+							</h3>
+							<p class="specialist__text">
+								Отслеживаются коммуникативные способности, уровень эмпатии, манера 
+								и стиль беседы,  проффесиональные компетенции
+							</p>
+						</li>
+					</ul>
+					<figure class="specialist__figure">
+						<img class="specialist__img" src="img/specialist.svg" alt="specialist">
+					</figure>
+				</div>
+			</section>
+			<section class="app-work">
+				<div class="container app-work__container">
+					<h2 class="app-work__title">
+						Как это устроено
+					</h2>
+					<div class="app-work__content">
+						<h3 class="app-work__subtitle">
+							Заполните простую анкету
+						</h3>
+						<p class="app-work__text">
+							Расскажите, что вас беспокоит и что важно в психологе. 
+						</p>
+						<h3 class="app-work__subtitle">
+							Выберите способ связи с психологом
+						</h3>
+						<p class="app-work__text">
+							49руб/мин по аудио/видео связи
+							200руб за 24 часа чата + аудио сообщения   
+						</p>
+					</div>
+					<div class="app-work__content">
+						<figure class="app-work__figure">
+							<img class="app-work__img" src="img/mobile-img.jpg" alt="mobile">
+						</figure>
+						<button class="app-work">Начать общение</button>
+					</div>
+					<div class="app-work__content">
+						<h3 class="app-work__subtitle">
+							Выберите психолога
+						</h3>
+						<p class="app-work__text">
+							Выберите понравившегося психолога 
+						</p>
+						<h3 class="app-work__subtitle">
+							Начните общение
+						</h3>
+						<p class="app-work__text">
+							Все общение происходит через платформу SPEAK. Вслучае 
+							если психолог вам не понравится, вы можете заменить 
+							его без дополнительных переплат 
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="services">
+				<div class="container services__container">
+					<h2 class="services__title">Услуги</h2>
+					<article class="services__card">
+						<header class="services__card-header">
+							<h4 class="services__card-subtitle">24 часа чата </h4>
+							<div class="services__card-intro">
+								<h3 class="services__card-title">4200₽</h3>
+								<h5 class="services__card-part">/24 часа</h5>
+							</div>
+						</header>
+							<ul class="services__card-list">
+								<li class="services__card-item">
+									24 часа доступа к чату с психологом
+								</li>
+								<li class="services__card-item">
+									Аудио сообщения
+								</li>
+							</ul>
+							<footer class="services__card-footer">
+								<button class="services__card-button">Перейти</button>
+							</footer>
+					</article>
+					<article class="services__card-active">
+						<header class="services__card-header-active">
+							<h4 class="services__card-subtitle-active">Аудио/Видео сессии</h4>
+							<div class="services__card-intro-active">
+								<h3 class="services__card-title-active">49₽</h3>
+								<h5 class="services__card-part-active">/1 минута</h5>
+							</div>
+						</header>
+							<ul class="services__card-list-active">
+								<li class="services__card-item-active">
+									Безлимитный доступа к чату с психологом до начала сессии
+								</li>
+								<li class="services__card-item-active">
+									Аудио/Видео звонки
+								</li>
+								<li class="services__card-item-active">
+									Нет лимитов по времени разговора
+								</li>
+							</ul>
+							<footer class="services__card-footer-active">
+								<form class="services__form">
+									<input class="services__form-input" type="number" name="min" placeholder="min">
+									<input class="services__form-input" type="number" name="price" placeholder="₽">
+									<button class="services__form-button">Перейти</button>
+								</form>
+							</footer>
+					</article>
+				</div>
+			</section>
+			<section class="review">
+				<div class="container review__container">
+					<h3 class="review__title">Отзывы</h3>
+					<arcticle class="review__arcticle">
+						<header class="review__header">
+							<figure class="review__figure">
+								<img class="review__img" src="img/sophia-jones.jpg">
+							</figure>
+						</header>
+						<div class="review__body">
+							<h4 class="review__title">
+								Sophia Jones
+							</h4>
+							<h5 class="review__subtitle">
+								Teacher
+							</h5>
+						</div>
+						<footer class="review__footer">
+							<p class="review__text">
+								After just 2 months, Speak has already made such an impact 
+								on my life. It has helped me develop manageable solutions to 
+								feelings of stress, anxiety, and overwhelm. Speaker helped 
+								me navigate the difficult stages of grief after losing my mom, 
+								with compassion and encouragement. And she’s easy to open up 
+								to, making me feel heard and understood.
+							</p>
+						</footer>
+					</arcticle>
+					<arcticle class="review__arcticle">
+						<header class="review__header">
+							<figure class="review__figure">
+								<img class="review__img" src="img/jay-k-braun.jpg">
+							</figure>
+						</header>
+						<div class="review__body">
+							<h4 class="review__title">
+								Jay K. Braun
+							</h4>
+							<h5 class="review__subtitle">
+								Artist
+							</h5>
+						</div>
+						<footer class="review__footer">
+							<p class="review__text">
+								After just 2 months, Speak has already made such 
+								an impact on my life. It has helped me develop 
+								manageable solutions to feelings of stress, anxiety, 
+								and overwhelm. Speaker helped me navigate the difficult 
+								stages of grief after losing my mom, with compassion and 
+							</p>
+						</footer>
+					</arcticle>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container footer__container">
+				<a class="footer__logo" href="#">
+					<figure class="footer__figure">
+						<img class="footer__img" src="img/logo.svg">
+					</figure>
+				</a>
+				<ul class="footer__list">
+					<li class="footer__item">
+						<a class="footer__link" href="#">Home</a>
+					</li>
+					<li class="footer__item">
+						<a class="footer__link" href="#">Blog</a>
+					</li>
+					<li class="footer__item">
+						<a class="footer__link" href="#">Privacy Policy</a>
+					</li>
+					<li class="footer__item">
+						<a class="footer__link" href="#">About us</a>
+					</li>
+					<li class="footer__item">
+						<a class="footer__link" href="#">Contact</a>
+					</li>
+					<li class="footer__item">
+						<a class="footer__link" href="#">Terms and Conditions</a>
+					</li>
+				</ul>
+				<ul class="footer__social">
+					<li class="footer__social-item">
+						<a class="footer__social-link" href="#">
+							<figure class="footer__social-figure">
+								<img class="footer__social-img" src="img/facebook.svg">
+							</figure>
+						</a>
+					</li>
+					<li class="footer__social-item">
+						<a class="footer__social-link" href="#">
+							<figure class="footer__social-figure">
+								<img class="footer__social-img" src="img/instagram.svg">
+							</figure>
+						</a>
+					</li>
+					<li class="footer__social-item">
+						<a class="footer__social-link" href="#">
+							<figure class="footer__social-figure">
+								<img class="footer__social-img" src="img/linkedin.svg">
+							</figure>
+						</a>
+					</li>
+					<li class="footer__social-item">
+						<a class="footer__social-link" href="#">
+							<figure class="footer__social-figure">
+								<img class="footer__social-img" src="img/twitter.svg">
+							</figure>
+						</a>
+					</li>
+				</ul>
+				<ul class="footer__contact-list">
+					<li class="footer__contact-item">
+						<a class="footer__contact-link">info@speak.help</a>
+					</li>
+					<li class="footer__contact-item">
+						<address class="footer__contact-address">
+							33 W 60th Street, 8th FI New York, NY 10023
+						</address>
+					</li>
+				</ul>
+			</div>
+		</footer>
+  </body>
 </html>
