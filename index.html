@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/style.min.css">
     <title>Speak</title>
   </head>
   <body>
@@ -26,19 +27,34 @@
 					</ul>
 				</nav>
 				<div class="auth">
+					<svg class="auth__svg" width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<g clip-path="url(#clip0_8242_1316)">
+						<path d="M13 26C20.1797 26 26 20.1797 26 13C26 5.8203 20.1797 0 13 0C5.8203 0 0 5.8203 0 13C0 20.1797 5.8203 26 13 26Z" fill="#F0F0F0"/>
+						<path d="M12.435 13.0002H26.0002C26.0002 11.8269 25.8438 10.6902 25.5524 9.60889H12.435V13.0002Z" fill="#D80027"/>
+						<path d="M12.435 6.2175H24.0922C23.2964 4.91892 22.2789 3.77111 21.0925 2.82617H12.435V6.2175Z" fill="#D80027"/>
+						<path d="M13 25.9999C16.0595 25.9999 18.8716 24.9424 21.0923 23.1738H4.90768C7.12834 24.9424 9.94045 25.9999 13 25.9999Z" fill="#D80027"/>
+						<path d="M1.90814 19.7829H24.092C24.7309 18.7404 25.2264 17.6009 25.5522 16.3916H0.447929C0.773793 17.6009 1.26927 18.7404 1.90814 19.7829Z" fill="#D80027"/>
+						<path d="M6.02184 2.03013H7.20652L6.10457 2.8307L6.52549 4.12608L5.42359 3.32551L4.32169 4.12608L4.68528 3.00701C3.71505 3.8152 2.86467 4.76206 2.16389 5.81709H2.54348L1.84204 6.32668C1.73276 6.50899 1.62795 6.69419 1.5275 6.88213L1.86245 7.91304L1.23754 7.459C1.0822 7.78812 0.940113 8.12464 0.812398 8.46818L1.18143 9.60406H2.54348L1.44153 10.4046L1.86245 11.7L0.760551 10.8994L0.100496 11.379C0.0344297 11.9101 0 12.451 0 13H13C13 5.82034 13 4.97392 13 0C10.4319 0 8.03791 0.744961 6.02184 2.03013ZM6.52549 11.7L5.42359 10.8994L4.32169 11.7L4.74261 10.4046L3.64066 9.60406H5.00271L5.42359 8.30868L5.84447 9.60406H7.20652L6.10457 10.4046L6.52549 11.7ZM6.10457 6.61766L6.52549 7.91304L5.42359 7.11247L4.32169 7.91304L4.74261 6.61766L3.64066 5.81709H5.00271L5.42359 4.52171L5.84447 5.81709H7.20652L6.10457 6.61766ZM11.1885 11.7L10.0866 10.8994L8.98473 11.7L9.40565 10.4046L8.3037 9.60406H9.66575L10.0866 8.30868L10.5075 9.60406H11.8696L10.7676 10.4046L11.1885 11.7ZM10.7676 6.61766L11.1885 7.91304L10.0866 7.11247L8.98473 7.91304L9.40565 6.61766L8.3037 5.81709H9.66575L10.0866 4.52171L10.5075 5.81709H11.8696L10.7676 6.61766ZM10.7676 2.8307L11.1885 4.12608L10.0866 3.32551L8.98473 4.12608L9.40565 2.8307L8.3037 2.03013H9.66575L10.0866 0.734754L10.5075 2.03013H11.8696L10.7676 2.8307Z" fill="#0052B4"/>
+						</g>
+						<defs>
+						<clipPath id="clip0_8242_1316">
+						<rect width="26" height="26" fill="white"/>
+						</clipPath>
+						</defs>
+						</svg>
 					<select class="auth__select">
 						<option class="auth__select-option" value="en">EN</option>
 						<option class="auth__select-option" value="pl">PL</option>
 						<option class="auth__select-option" value="de">DE</option>
 					</select>
-					<button class=" button auth__button">Войти</button>
+					<button class="button auth__button">Войти</button>
 				</div>
       </div>
     </header>
 		<main class="main">
 			<section class="session">
 				<div class=" container session__container">
-					<div class="session-content">
+					<div class="session__content">
 						<h2 class="session__subtitle">
 							+300 прошедших отбор психологов
 						</h2>
@@ -65,19 +81,21 @@
 							<figure class="application__content-figure">
 								<img class="application__content-img" src="img/logo-application.svg" alt="logo-application">
 							</figure>
-							<h2 class="application__content-title">Speak</h2>
-							<h3 class="application__content-subtitle">
-								онлайн сессии с психологом
-								доступно для iOS и Android
-							</h3>
+							<div class="application__content-titles">
+								<h2 class="application__content-title">Speak</h2>
+								<h3 class="application__content-subtitle">
+									онлайн сессии с психологом
+									доступно для iOS и Android
+								</h3>
+							</div>
 						</div>
 						<div class="application__phone">
-							<figure class="application__phone-figure">
+							<button class="application__phone-button">
 								<img class="application__phone-img" src="img/application-appstore.svg" alt="application__appstore">
-							</figure>
-							<figure class="application__phone-figure">
+							</button>
+							<button class="application__phone-button">
 								<img class="application__phone-img" src="img/application-googleplay.svg" alt="application-googleplay">
-							</figure>
+							</button>
 						</div>
 					</div>
 				</div>
@@ -85,6 +103,8 @@
 			<section class="psychologists">
 				<div class="container psychologists__container">
 					<h2 class="psychologists__title">
+						Психологи работающие с актуальными темами
+					</h2>
 						<ul class="psychologists__list">
 							<li class="psychologists__item">
 								<a class="psychologists__link" href="#">Чувства</a>
@@ -93,7 +113,9 @@
 								<a class="psychologists__link" href="#">Одиночество</a>
 							</li>
 							<li class="psychologists__item">
-								<a class="psychologists__link" href="#">Вредные привычки</a>
+								<a class="psychologists__link psychologists__link-active" href="#">
+									Вредные привычки
+								</a>
 							</li>
 							<li class="psychologists__item">
 								<a class="psychologists__link" href="#">Отношения</a>
@@ -113,11 +135,12 @@
 							<li class="psychologists__item">
 								<a class="psychologists__link" href="#">Отношения с близкими</a>
 							</li>
-							<li class="psychologists__item">
-								<a class="psychologists__link" href="#">+ 300 психологов</a>
+							<li class="psychologists__item psychologists__item-last">
+								<a class="psychologists__link psychologists__link-last" href="#">
+									+ 300 психологов
+								</a>
 							</li>
 						</ul>
-					</h2>
 					<div class="psychologists__card">
 						<article class="psychologists__arcticle">
 							<header class="psychologists__header">
@@ -126,14 +149,17 @@
 								</figure>
 							</header>
 								<div class="psychologists__body">
-									<h4 class="psychologists__title">
+									<h4 class="psychologists__card-title">
 										Илья Благов
 									</h4>
 								</div>
 								<footer class="psychologists__footer">
-									<figure class="psychologists__figure">
-										<img class="psychologists__img" src="img/stars.svg" alt="stars">
+									<figure class="psychologists__figure-stars">
+										<img class="psychologists__img-stars" src="img/stars.svg" alt="stars">
 									</figure>
+									<a class="psychologists__figure-arrow" href="#">
+										<img class="psychologists__img-arrow" src="img/arrow-card.svg" alt="arrow">
+									</a>
 								</footer>
 						</article>
 						<article class="psychologists__arcticle">
@@ -143,14 +169,17 @@
 								</figure>
 							</header>
 								<div class="psychologists__body">
-									<h4 class="psychologists__title">
+									<h4 class="psychologists__card-title">
 										Иванна Есина
 									</h4>
 								</div>
 								<footer class="psychologists__footer">
-									<figure class="psychologists__figure">
-										<img class="psychologists__img" src="img/stars.svg" alt="stars">
+									<figure class="psychologists__figure-stars">
+										<img class="psychologists__img-stars" src="img/stars.svg" alt="stars">
 									</figure>
+									<a class="psychologists__figure-arrow" href="#">
+										<img class="psychologists__img-arrow" src="img/arrow-card.svg" alt="arrow">
+									</a>
 								</footer>
 						</article>
 						<article class="psychologists__arcticle">
@@ -160,14 +189,17 @@
 								</figure>
 							</header>
 								<div class="psychologists__body">
-									<h4 class="psychologists__title">
+									<h4 class="psychologists__card-title">
 										Артур Островский
 									</h4>
 								</div>
 								<footer class="psychologists__footer">
-									<figure class="psychologists__figure">
-										<img class="psychologists__img" src="img/stars.svg" alt="stars">
+									<figure class="psychologists__figure-stars">
+										<img class="psychologists__img-stars" src="img/stars.svg" alt="stars">
 									</figure>
+									<a class="psychologists__figure-arrow" href="#">
+										<img class="psychologists__img-arrow" src="img/arrow-card.svg" alt="arrow">
+									</a>
 								</footer>
 						</article>
 						<article class="psychologists__arcticle">
@@ -177,14 +209,17 @@
 								</figure>
 							</header>
 								<div class="psychologists__body">
-									<h4 class="psychologists__title">
+									<h4 class="psychologists__card-title">
 										Юля Заграничная
 									</h4>
 								</div>
 								<footer class="psychologists__footer">
-									<figure class="psychologists__figure">
-										<img class="psychologists__img" src="img/stars.svg" alt="stars">
+									<figure class="psychologists__figure-stars">
+										<img class="psychologists__img-stars" src="img/stars.svg" alt="stars">
 									</figure>
+									<a class="psychologists__figure-arrow" href="#">
+										<img class="psychologists__img-arrow" src="img/arrow-card.svg" alt="arrow">
+									</a>
 								</footer>
 						</article>
 						<article class="psychologists__arcticle">
@@ -194,14 +229,17 @@
 								</figure>
 							</header>
 								<div class="psychologists__body">
-									<h4 class="psychologists__title">
+									<h4 class="psychologists__card-title">
 										Андрей Ян
 									</h4>
 								</div>
 								<footer class="psychologists__footer">
-									<figure class="psychologists__figure">
-										<img class="psychologists__img" src="img/stars.svg" alt="stars">
+									<figure class="psychologists__figure-stars">
+										<img class="psychologists__img-stars" src="img/stars.svg" alt="stars">
 									</figure>
+									<a class="psychologists__figure-arrow" href="#">
+										<img class="psychologists__img-arrow" src="img/arrow-card.svg" alt="arrow">
+									</a>
 								</footer>
 						</article>
 					</div>
@@ -209,29 +247,31 @@
 			</section>
 			<section class="help">
 				<div class="container help__container">
-					<h2 class="help__title">
-						Поможем вам
-					</h2>
-					<ul class="help__list">
-						<li class="help__item">
-							Разрешить причины сложных отношений с партнером
-						</li>
-						<li class="help__item">
-							Снять или снизить остроту переживаний
-						</li>
-						<li class="help__item">
-							Справиться с выгоранием на работе и найти мотивацию
-						</li>
-						<li class="help__item">
-							Понять себя в отношениях с близкими людьми
-						</li>
-						<li class="help__item">
-							Найти себя и понимать свои желания
-						</li>
-						<li class="help__item">
-							Исследовать и управлять изменениями в своей жизни
-						</li>
-					</ul>
+					<div class="help__intro">
+						<h2 class="help__title">
+							Поможем вам
+						</h2>
+						<ul class="help__list">
+							<li class="help__item">
+								Разрешить причины сложных отношений с партнером
+							</li>
+							<li class="help__item">
+								Снять или снизить остроту переживаний
+							</li>
+							<li class="help__item">
+								Справиться с выгоранием на работе и найти мотивацию
+							</li>
+							<li class="help__item">
+								Понять себя в отношениях с близкими людьми
+							</li>
+							<li class="help__item">
+								Найти себя и понимать свои желания
+							</li>
+							<li class="help__item">
+								Исследовать и управлять изменениями в своей жизни
+							</li>
+						</ul>
+					</div>
 					<figure class="help__figure">
 						<img class="help__img" src="img/help-img.svg" alt="help">
 					</figure>
@@ -239,63 +279,77 @@
 			</section>
 			<section class="online-session">
 				<div class=" container online-session__container">
-					<h2 class="online-session__title">
-						Преимущества онлайн сессий с психологом
-					</h2>
-					<h3 class="online-session__subtitle">
-						Занимайтесь где и как удобно
-					</h3>
-					<p class="online-session__text">
-						Дома или в поездке и в любом часовом поясе
-					</p>
-					<h3 class="online-session__subtitle">
-						Меньше забот- больше мотивации
-					</h3>
-					<p class="online-session__text">
-						Не тратьте время на дорогу и управляйте занятиями в два клика
-					</p>
-					<h3 class="online-session__subtitle">
-						Доверяйте себе
-					</h3>
-					<p class="online-session__text">
-						Выбирайте среди проверенных психологов, которые специаллизируются
-						на ваших запросах
-					</p>
+					<figure class="online-session__figure">
+						<img class="online-session__img" src="img/online-session-phone.svg" alt="online-session">
+					</figure>
+					<div class="online-session__intro">
+						<h2 class="online-session__title">
+							Преимущества онлайн сессий с психологом
+						</h2>
+						<div class="online-session__content">
+							<h3 class="online-session__subtitle">
+								Занимайтесь где и как удобно
+							</h3>
+							<p class="online-session__text">
+								Дома или в поездке и в любом часовом поясе
+							</p>
+							<h3 class="online-session__subtitle">
+								Меньше забот- больше мотивации
+							</h3>
+							<p class="online-session__text">
+								Не тратьте время на дорогу и управляйте занятиями в два клика
+							</p>
+							<h3 class="online-session__subtitle">
+								Доверяйте себе
+							</h3>
+							<p class="online-session__text">
+								Выбирайте среди проверенных психологов, которые специаллизируются
+								на ваших запросах
+							</p>
+						</div>
+					</div>
 				</div>
 			</section>
 			<section class="specialist">
 				<div class="container specialist__container">
-					<h2 class="specialist__title">
-						Как мы отбираем специалистов?
-					</h2>
-					<h3 class="specialist__subtitle">Отбор проходят меньше 10% специаллистов</h3>
-					<ul class="specialist__list">
-						<li class="specialist__item">
-							<h3 class="specialist__item-title">Документы об образовании</h3>
-							<p class="specialist__text">
-								Обязательно иметь высшее психологическое образование
-								и сертификаты для ведения психотерапии
-							</p>
-						</li>
-						<li class="specialist__item">
-							<h3 class="specialist__item-title">
-								Опыт частной практики и личной терапии
-							</h3>
-							<p class="specialist__text">
-								Нужно не менее 3-х лет частной практики, личная терапия 
-								и регулярные супервизии
-							</p>
-						</li>
-						<li class="specialist__item">
-							<h3 class="specialist__intro-title">
-								Собеседование с нашим экспертом-ментором
-							</h3>
-							<p class="specialist__text">
-								Отслеживаются коммуникативные способности, уровень эмпатии, манера 
-								и стиль беседы,  проффесиональные компетенции
-							</p>
-						</li>
-					</ul>
+					<div class="specialist__content">
+						<h2 class="specialist__title">
+							Как мы отбираем специалистов?
+						</h2>
+						<h3 class="specialist__subtitle">Отбор проходят меньше 10% специаллистов</h3>
+						<ul class="specialist__list">
+							<li class="specialist__item">
+								<div class="specialist__item-content">
+									<h3 class="specialist__item-title">Документы об образовании</h3>
+									<h4 class="specialist__item-subtitle">1</h4>
+									<p class="specialist__text">
+										Обязательно иметь высшее психологическое образование
+										и сертификаты для ведения психотерапии
+									</p>
+								</div>
+							</li>
+							<li class="specialist__item">
+								<h3 class="specialist__item-title">
+									Опыт частной практики и личной терапии
+								</h3>
+								<h4 class="specialist__item-subtitle">2</h4>
+								<p class="specialist__text">
+									Нужно не менее 3-х лет частной практики, личная терапия 
+									и регулярные супервизии
+								</p>
+							</li>
+							<li class="specialist__item">
+								<h3 class="specialist__item-title">
+									Собеседование с нашим экспертом-ментором
+								</h3>
+								<h4 class="specialist__item-subtitle">3</h4>
+								<p class="specialist__text">
+									Отслеживаются коммуникативные способности, уровень эмпатии, манера 
+									и стиль беседы,  проффесиональные компетенции
+								</p>
+							</li>
+						</ul>
+					</div>
 					<figure class="specialist__figure">
 						<img class="specialist__img" src="img/specialist.svg" alt="specialist">
 					</figure>
